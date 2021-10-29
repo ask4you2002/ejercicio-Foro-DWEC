@@ -1,0 +1,43 @@
+* {
+    margin: 0 auto; 
+}
+html {
+    box-sizing: border-box;
+}
+header {
+    background-color: rgba(40, 48, 68);
+    z-index: 1;
+    padding: 20px;
+    color:white;
+    position: sticky;
+    top: 0px;
+    font-size: 1.5rem;
+}
+
+main {
+    padding: 20px;
+    font-size: 1.2rem;
+    z-index: 0;
+    min-height: 80vh;
+    background: rgb(220,173,246);
+background: linear-gradient(180deg, rgba(220,173,246,1) 0%, rgba(73,228,228,1) 67%, rgba(0,255,171,1) 100%);
+}
+label {
+    font-family: monospace;
+}
+
+span {
+    font-size: 0.8rem;
+    background-color: rgb(211, 211, 211);
+    color: black;
+}
+header, footer {
+    font-family: monospace;
+}
+footer {
+    background-color: rgb(40, 48, 68);
+    color: white;
+    z-index: 1;
+    padding: 8px;
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/icono.png">
+    <title>Foro Chat</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Foro Chat</h1>
+    </header>
+    <main>
+        <div id="lista-mensajes"></div>
+        <div id="mensaje-nuevo">
+            <div>
+                <label for="nombre-usuario">Nombre de usuario:</label>
+                <br>
+                <textarea id="nombre-usuario" name="nombre-usuario" cols="10" rows="1" placeholder="Nombre de usuario..." maxlength="25"></textarea>
+                <br>
+                <label for="comentario-usuario">Comentario:</label>
+                <br>
+                <textarea name="comentario-usuario" id="comentario-usuario" cols="10" maxlength="120" placeholder="Comentario a subir...(max 120 car.)" contentEditable></textarea>
+                <br>
+                <button onclick="subirComentario()" id="boton-subir-comentario">Subir comentario</button>
+                <button onclick="eliminarComentarios()" id="boton-eliminar-comentario">Limpiar comentarios</button>
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+        <h2>2021 FORO CHAT &reg;</h2>
+    </footer>
+    <script src="main.js" defer></script>
+</body>
+</html>
